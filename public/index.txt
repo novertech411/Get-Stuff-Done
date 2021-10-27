@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript"  src="/assets/js/lib/jquery.js"></script>
+</head>
+<body>
+<div id="container">
+<div class="h1">To-Do List  <div class="icon">Add <i class="fa fa-pencil-alt x2-2"></i></div></div>
+<input type="text" placeholder="Add New To-Do" class="input">
+
+<ul>
+    
+    <li id="task"><span><i class=" far fa-trash-alt" ></i></span> Pratic Node.js</li>
+    <li id="task"><span><i class=" far fa-trash-alt" ></i></span> Host the site on mongodb </li>
+    <li id="task"><span><i class=" far fa-trash-alt" ></i></span> On to the next projecr</li>
+</ul>
+
+
+</div>
+    <script src="/assets/icon/all.js"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+</html>

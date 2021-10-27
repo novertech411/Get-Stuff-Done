@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Todo list</title>
+        <script src="/assets/js/lib/jquery.js"></script>
+        <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="h1">To-Do List  <div class="icon">Add <i class="fa fa-pencil-alt x2-2"></i></div></div>
+            <input type="text" placeholder="Add New To-Do" class="input"  required>
+            
+            <ul>
+                <% for(var i=0; i < todos.length; i++){ %>
+                     <li id="task"><span><i class=" far fa-trash-alt my-3" ></i></span><%= todos[i].item %></li>
+                 <% } %> 
+
+
+                 
+
+               <li></li>
+            </ul>
+            
+            
+            </div>
+            <script src="/assets/icon/all.js"></script>
+            <script type="text/javascript" src="/assets/js/script.js"></script>
+    </body>
+</html>
+
+
