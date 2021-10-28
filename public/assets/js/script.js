@@ -14,7 +14,7 @@ $("ul").on("click", "li", function(){
          var item = $(this).text().replace(/  /g, "-");
          $.ajax({
             type: 'DELETE',
-            URL: '/todo/' + item,
+            url: '/todo/' + item,
             success: function(data){
                location.reload();
              }
@@ -35,7 +35,7 @@ $("ul").on("click", "li", function(){
       if(event.which === 13){
          $.ajax({
            type:'POST',
-           url: '/todo',
+           url: '/todo/',
            data: todo,
            success: function(data){
              location.reload();
